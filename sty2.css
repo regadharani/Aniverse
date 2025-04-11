@@ -1,0 +1,84 @@
+*{
+ margin:0px;
+ 
+}
+body{
+    display:flex;
+    align-items: center;
+    margin-top:14%;
+    background:url("/images/shinobu-kocho-5120x2880-16954.jpg")no-repeat;
+    background-size:cover;
+}
+.wrapper{
+   width:420px;
+    text-align: center;
+    background:transparent;
+    margin-left:35%;
+    padding:18px;
+    border-radius:45px;
+    border-style:solid;
+    border-color:violet;
+    backdrop-filter:blur(3px);
+}
+
+input{
+    color:white;
+    margin:8px;
+    height:45px;
+    width:350px;
+    background: transparent;
+    border-radius:40px;
+    border-color: aliceblue;
+}
+button{
+    background: transparent;
+    height:45px;
+    width:175px;
+    border-radius: 40px;
+    border-color: aliceblue;
+}
+.user{
+    padding:8px;
+}
+.pass{
+    padding:8px;
+}
+.btn{
+    padding:8px;
+}
+input::placeholder {
+    color:aliceblue;
+}
+button{
+    color:aliceblue;
+}
+p{
+    color:aliceblue;  
+}
+#o{
+    color:rgb(237, 155, 244);
+    text-decoration: none;
+}
+button:hover{
+    cursor:pointer;
+    color:violet;
+}
+h1{
+    color:aliceblue;
+}
+.li{
+    font-size:25px;
+ }
+
+input{
+    padding-left: 10px;
+}
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+a:hover {
+
+    color: violet;
+}

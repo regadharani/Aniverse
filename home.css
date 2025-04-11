@@ -1,0 +1,107 @@
+/* Theme Colors */
+body {
+    color: aliceblue;
+    background: url("images/muichiro-tokito-5120x2880-16957.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+      font-family: 'poppins';
+}
+
+.text-aqua {
+  color: #f3f6f6 !important;
+}
+
+.btn-aqua {
+  background-color: #00d2ff;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 30px;
+  border: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-aqua:hover {
+  background-color: #00b8e6;
+  transform: scale(1.05);
+}
+
+.logo-icon {
+  font-size: 1.5rem;
+}
+
+/* Hero Section */
+
+
+.border-aqua {
+  border: 5px solid #00d2ff;
+  border-radius: 20px;
+}
+.nav-link.active {
+ 
+  color: white !important;
+  border-radius: 10px;
+}
+/* Navbar link hover effect */
+.nav-link {
+  color: #333;
+  transition: all 0.3s ease-in-out;
+  padding: 8px 13px;
+  border-radius: 10px;
+}
+
+.nav-link:hover {
+  background-color: #00d2ff;
+  color: white !important;
+  box-shadow: 0 4px 10px rgba(0, 210, 255, 0.3);
+}
+
+.navbar {
+  backdrop-filter: blur(30px) !important;
+}
+.custom-img {
+  margin-top: 50px;              /* better spacing control */
+  border-radius: 50%;
+  height: 350px;
+  width: 350px;
+  object-fit: cover;             /* maintain aspect ratio */
+       
+  box-shadow: 0 40px 30px rgba(1, 8, 9, 0.3); /* optional glow */
+}
+
+.custom{
+  padding-top: 70px;
+  padding-left: 20%;
+}
+
+a{
+  text-decoration: none !important;
+  color: black !important;
+}
+
+a:hover {
+  color: aqua !important;
+}
+
+#git:hover {
+  color: aqua;
+  cursor: pointer;
+}
+
+#twit:hover {
+  color: aqua;
+  cursor: pointer;
+}
+
+#insta:hover {
+  color: aqua;
+  cursor: pointer;
+}
+
+#mail:hover {
+  color: aqua;
+  cursor: pointer;
+}
+#fb:hover{
+  color: aqua;
+  cursor: pointer;
+ }

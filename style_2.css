@@ -1,0 +1,114 @@
+ * {
+     padding: 0;
+     margin: 0;
+ }
+
+ .wrapper {
+     margin-top: 14%;
+     text-align: center;
+ }
+
+ body {
+     display: flex;
+     background: url("/images/shinobu-kocho-5120x2880-16954.jpg")no-repeat;
+     background-size: cover;
+ }
+
+ input {
+     padding-left: 15px;
+     background-color: transparent;
+     color: white;
+
+ }
+
+ input::placeholder {
+     color: aliceblue;
+ }
+
+ .user input {
+
+     margin: 8px;
+     height: 45px;
+     width: 400px;
+     border-radius: 40px;
+     border-color: aliceblue;
+ }
+
+ .pass input {
+     margin-bottom: 8px;
+     height: 45px;
+     width: 400px;
+     border-radius: 40px;
+     border-color: aliceblue;
+ }
+
+ .email input {
+     margin-bottom: 8px;
+     height: 45px;
+     width: 400px;
+     border-radius: 40px;
+     border-color: aliceblue;
+ }
+
+ .email {
+     padding-left: 15px;
+ }
+
+ .wrapper {
+     display: transparent;
+     color: white;
+     border-color: violet;
+     padding: 20px;
+     display: inline-block;
+     margin-left: 30%;
+     border-style: solid;
+     border-radius: 45px;
+     backdrop-filter: blur(4px);
+
+ }
+
+ .btn {
+     margin: 8px;
+     height: 56px;
+     width: 200px;
+     color: white;
+     border-color: aliceblue;
+     border-radius: 40px;
+     background: transparent;
+
+ }
+
+ .li {
+     font-size: 56px;
+ }
+
+ .btn:hover {
+     cursor: pointer;
+     color: white;
+ }
+
+ .gen:hover {
+     cursor: pointer;
+     text-decoration: underline;
+ }
+
+ .signin {
+     margin: 8px;
+     justify-content: space-between;
+     text-decoration: none;
+ }
+
+ #o {
+     color: rgb(237, 155, 244);
+     text-decoration: none;
+ }
+
+ a {
+     text-decoration: none;
+     color: aliceblue;
+ }
+
+ a:hover {
+
+     color: violet;
+ }

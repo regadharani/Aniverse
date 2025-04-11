@@ -1,0 +1,120 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'poppins';
+}
+
+body {
+    color: aliceblue;
+    background: url("images/muichiro-tokito-5120x2880-16957.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navbar {
+    position: fixed !important;
+    left: 0;
+    top: 0;
+    width: 100%;
+    box-shadow: 0px 1px 8px aqua;
+    z-index: 10;
+}
+
+.nav-link:hover {
+    border-bottom: 2px solid aqua;
+}
+
+.navbar {
+    backdrop-filter: blur(30px) !important;
+}
+
+.carousel-img {
+    height: 500px;
+    object-fit: cover;
+}
+
+.blur-overlay {
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 100px;
+    z-index: 2;
+    pointer-events: none;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), transparent);
+}
+
+.blur-overlay.bottom {
+    top: auto;
+    bottom: 0;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5), transparent);
+}
+
+.carousel-item {
+    position: relative;
+}
+
+
+
+
+.card {
+    backdrop-filter: blur(20px) !important;
+
+}
+
+/* Card box shadow */
+.shadow-custom {
+    box-shadow: 3px 20px 10px rgba(0, 0, 0, 0.9);
+    border-radius: 1rem;
+}
+
+/* Circular image */
+.img-custom {
+    width: 165px;
+    height: 165px;
+    object-fit: cover;
+
+}
+
+.card:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: aqua;
+}
+
+#git:hover {
+    color: aqua;
+    cursor: pointer;
+}
+
+#twit:hover {
+    color: aqua;
+    cursor: pointer;
+}
+
+#insta:hover {
+    color: aqua;
+    cursor: pointer;
+}
+
+#mail:hover {
+    color: aqua;
+    cursor: pointer;
+}
+#fb:hover{
+    color: aqua;
+    cursor: pointer;
+   }
+
+
+
+
